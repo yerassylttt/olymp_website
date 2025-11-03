@@ -6,10 +6,10 @@
     <meta name="description" content="Информация о Национальной Олимпиаде по Биологии 2023">
     <meta name="author" content="Комитет Олимпиады по Биологии">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../normalize.css">
-    <link rel="stylesheet" href="../skeleton.css">
-    <link href='https://fonts.googleapis.com/css?family=IBM Plex Sans' rel='stylesheet'>
-    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/skeleton.css">
+    <link href='https://fonts.googleapis.com/css?family=IBM+Plex+Sans:wght@400;500;600&display=swap' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="../../assets/images/favicon.png">
     <style>
         .nav-menu {
             display: flex;
@@ -91,49 +91,49 @@
     </script>
 
 <div class="container">
-    <!-- Kazakh Content -->
+    <!-- Russian Content -->
     <div class="row" style="margin-top: 5%;">
         <div class="twelve columns">
-            <h1>Қазақстандағы Биология Олимпиадалары</h1>
+            <h1>Олимпиады по Биологии в Казахстане</h1>
 
             <!-- Horizontal Navigation Menu -->
             <div class="nav-menu">
-                <a href="index-kaz.html">Басты бет</a>
+                <a href="../../index.html">Главная</a>
                 <div class="dropdown">
-                    <a href="#olympiads">Олимпиадалар</a>
+                    <a href="#olympiads">Олимпиады</a>
                     <div class="dropdown-content">
-                        <a href="respa-kaz.html">Республикалық олимпиада</a>
-                        <a href="presidential-kaz.html">Президенттік олимпиада</a>
-                        <a href="rural-kaz.html">Ауыл мектептерінің республикалық олимпиадасы</a>
-                        <a href="junior-kaz.html">Республикалық Жасөспірімдер олимпиадасы</a>
+                        <a href="olympiads/respa.html">Республиканская олимпиада</a>
+                        <a href="olympiads/presidential.html">Президентская олимпиада</a>
+                        <a href="olympiads/rural.html">Республиканская олимпиада для учеников сельских школ</a>
+                        <a href="olympiads/junior.html">Республиканская Юниорская олимпиада</a>
                     </div>
                 </div>
-                <a href="selection-kaz.html">IBO-ға іріктеу</a>
-                <a href="news-kaz.html">Жаңалықтар</a>
-                <a href="syllabus-kaz.html">Силлабус</a>
-                <a href="tips-kaz.html">Кеңестер</a>
-                <a href="authors-kaz.html">Авторлар туралы</a>
-                <a href="../news.html" class="language-link">
-                    <img src="../lang.svg" alt="Language Icon"> Русский
+                <a href="selection.html">Отбор на IBO</a>
+                <a href="news.html">Новости</a>
+                <a href="syllabus.html">Силлабус</a>
+                <a href="tips.html">Советы</a>
+                <a href="authors.html">Об авторах</a>
+                <a href="../kz/news-kaz.html" class="language-link">
+                    <img src="../../assets/images/lang.svg" alt="Language Icon"> Қазақша
                 </a> 
             </div>
         </div>
-    </div>
+  </div>
 
         <div class="row" style="margin-top: 5%">
             <div class="twelve columns">
-                <h6>Соңғы жаңалықтар</h6>
-                <p>Қазақстандағы биология бойынша олимпиадалар туралы соңғы жаңалықтар мен жаңартуларды қадағалаңыз.</p>
+                <h6>Последние новости</h6>
+                <p>Следите за последними новостями и обновлениями о олимпиадах по биологии в Казахстане.</p>
 
                 <table>
                     <thead>
                         <tr>
-                            <th>Күні</th>
-                            <th>Тақырып</th>
+                            <th>Дата</th>
+                            <th>Заголовок</th>
                         </tr>
                     </thead>
-                    <!--
                     <tbody>
+                        <!--
                         <tr>
                             <td>01.10.2023</td>
                             <td class="news-header" onclick="toggleContent('content1')">Открыта регистрация на Республиканскую олимпиаду по биологии</td>
@@ -142,6 +142,36 @@
                             <td colspan="2">
                                 <p>Регистрация для участия в Республиканской олимпиаде по биологии открыта до 15 октября. Участники могут зарегистрироваться через официальный сайт. <br> 
                                 Дополнительная информация будет доступна на нашем сайте.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>15.10.2023</td>
+                            <td class="news-header" onclick="toggleContent('content2')">Пройдут отборочные этапы для участия в Президентской олимпиаде</td>
+                        </tr>
+                        <tr id="content2" class="expandable-content">
+                            <td colspan="2">
+                                <p>Отборочные этапы для Президентской олимпиады начнутся 20 октября. Участники должны подготовить необходимые документы. <br>
+                                Подробности можно узнать у организаторов.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>22.10.2023</td>
+                            <td class="news-header" onclick="toggleContent('content3')">Объявлены даты проведения Республиканской Юниорской олимпиады</td>
+                        </tr>
+                        <tr id="content3" class="expandable-content">
+                            <td colspan="2">
+                                <p>Республиканская Юниорская олимпиада пройдет с 1 по 3 ноября. Участники должны зарегистрироваться до 28 октября. <br>
+                                Следите за новостями для получения актуальной информации.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>05.11.2023</td>
+                            <td class="news-header" onclick="toggleContent('content4')">Подготовительные семинары для участников олимпиад</td>
+                        </tr>
+                        <tr id="content4" class="expandable-content">
+                            <td colspan="2">
+                                <p>Семинары по подготовке участников олимпиад пройдут 10 ноября. Все желающие могут принять участие. <br>
+                                Для регистрации обращайтесь по указанным контактам.</p>
                             </td>
                         </tr>
                     </tbody>
