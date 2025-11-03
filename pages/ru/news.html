@@ -8,67 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../assets/css/normalize.css">
     <link rel="stylesheet" href="../../assets/css/skeleton.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
     <link href='https://fonts.googleapis.com/css?family=IBM+Plex+Sans:wght@400;500;600&display=swap' rel='stylesheet'>
     <link rel="icon" type="image/png" href="../../assets/images/favicon.png">
-    <style>
-        .nav-menu {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-        }
-
-        .nav-menu a {
-            text-decoration: none;
-            color: black;
-            padding: 5px 10px;
-        }
-
-        .nav-menu .language-link {
-            margin-left: auto;
-            display: flex;
-            align-items: center;
-        }
-
-        .nav-menu .language-link img {
-            margin-right: 5px; /* Space between icon and text */
-            flex-wrap: nowrap; /* Prevent wrapping */
-            width: 20px; /* Adjust size as needed */
-            height: 20px; /* Adjust size as needed */
-        }
-
-        /* Hide content sections by default */
-        .hidden {
-            display: none;
-        }
-        /* Media query for mobile devices */
-        @media (max-width: 600px) {
-            .nav-menu {
-                flex-direction: column; /* Change to vertical layout */
-                align-items: flex-start; /* Align items to the start */
-            }
-
-            .nav-menu a {
-                width: 100%; /* Make links full width */
-                padding: 10px; /* Increase padding for better touch targets */
-            }
-        }
-        .expandable-content {
-            display: none;
-            margin-top: 10px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            background-color: #f9f9f9;
-        }
-        .news-header {
-            cursor: pointer;
-            color: black; /* Standard text color */
-            font-weight: bold; /* Make it bold to indicate it's clickable */
-            padding: 5px 0; /* Add some padding for better spacing */
-        }
-        .news-header:hover {
-            color: #555; /* Change color on hover for better UX */
-        }
-    </style>
     <script>
         function toggleContent(id) {
             var content = document.getElementById(id);
